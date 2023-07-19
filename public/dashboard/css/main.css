@@ -1,0 +1,164 @@
+/*Dashboard Main CSS*/
+@font-face {
+    font-family: 'ArabicKufi';
+    src: url('../../fonts/Arabic-Kufi.ttf');
+}
+@font-face {
+    font-family: 'Sarina-Regular';
+    src: url('../../fonts/Sarina-Regular.ttf');
+}
+@font-face {
+    font-family: 'Allison_Script';
+    src: url('../../fonts/Allison_Script.otf');
+}
+@font-face {
+    font-family: 'Arty Signature';
+    src: url('../../fonts/Arty Signature.otf');
+}
+@font-face {
+    font-family: 'Creattion Demo';
+    src: url('../../fonts/Creattion Demo.otf');
+}
+@font-face {
+    font-family: 'DrSugiyama-Regular';
+    src: url('../../fonts/DrSugiyama-Regular.ttf');
+}
+@font-face {
+    font-family: 'Holligate Signature Demo';
+    src: url('../../fonts/Holligate Signature Demo.ttf');
+}
+@font-face {
+    font-family: 'MonsieurLaDoulaise-Regular';
+    src: url('../../fonts/MonsieurLaDoulaise-Regular.ttf');
+}
+@font-face {
+    font-family: 'MrDafoe-Regular';
+    src: url('../../fonts/MrDafoe-Regular.ttf');
+}
+@font-face {
+    font-family: 'MrDeHaviland-Regular';
+    src: url('../../fonts/MrDeHaviland-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Southam Demo';
+    src: url('../../fonts/Southam Demo.otf');
+}
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a:link{
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: system-ui;
+}
+
+/*layout dashboard*/
+.dashboard-container{
+    width: 100%;
+    height: 100%;
+}
+.dashboard-container .dashboard-content{
+    width: 100%;
+    height: 100%;
+}
+.dashboard-container .dashboard-content .dashboard{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+/*views main*/
+.dashboard-container .dashboard-content .dashboard section{
+    width: 85%;
+}
+/*sidebar*/
+.sidebar-container{
+    width: 15%;
+    height: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px #d8d8d8;
+}
+.sidebar-container .sidebar-content{
+    width: 100%;
+    height: 100%;
+}
+.sidebar-container .sidebar-content .sidebar{
+    width: 100%;
+    height: 100%;
+}
+/*sidebar dashboard*/
+.sidebar-container .sidebar-content .sidebar .sidebar-head{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    border-radius: 85% 15% 100% 0% / 19% 56% 44% 81% ;
+    /*background-image: url("../images/shapes/shape-img-1.png");*/
+    /*background-size: 100% 100%;*/
+    background: linear-gradient(to left, #328bc1, #77c8fe);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.sidebar-container .sidebar-content .sidebar .sidebar-head .side-head-data{
+    width: 100%;
+}
+.sidebar-container .sidebar-content .sidebar .sidebar-head .side-head-data img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.sidebar-container .sidebar-content .sidebar .sidebar-head .side-head-data p{
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+/*sidebar list item*/
+.sidebar-container .sidebar-content .sidebar  .sidebar-list{
+    width: 100%;
+}
+.sidebar-container .sidebar-content .sidebar  .sidebar-list .sidebar-list-items{
+    width: 100%;
+    padding: 20px 10px;
+}
+.sidebar-container .sidebar-content .sidebar  .sidebar-list .sidebar-list-items .small-title{
+    width: 100%;
+    text-align: justify;
+}
+
+.sidebar-container .sidebar-content .sidebar  .sidebar-list .sidebar-list-items a{
+    width: 100%;
+    color: #222222;
+}
+.sidebar-container .sidebar-content .sidebar  .sidebar-list .sidebar-list-items a .sidebar-item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 5px;
+    align-content: center;
+}
+.sidebar-container .sidebar-content .sidebar  .sidebar-list .sidebar-list-items a .sidebar-item:hover{
+    color: #FFFFFF;
+    transition: 0.5s all;
+    padding: 10px 15px;
+    background-color: #328bc1;
+}
+.sidebar-container .sidebar-content .sidebar  .sidebar-list .sidebar-list-items a .sidebar-item img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    margin: 0 5px;
+}
+

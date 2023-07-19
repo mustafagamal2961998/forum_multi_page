@@ -1,0 +1,495 @@
+button i{
+    vertical-align: middle;
+}
+.rank-control{
+    display: flex;
+    justify-content: center;
+}
+.rank-control button{
+    margin: 0 5px;
+}
+.file-input__input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.index-body .index-body-list .index-body-list-items .index-body-item table.fonts,
+.index-body .index-body-list .index-body-list-items .index-body-item table.ranks{
+    text-align: center;
+}
+.file-input__label {
+    width: 80%;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px 12px;
+    background-color: #4245a8;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+
+}
+.file-input__label  span{
+    margin: auto;
+}
+
+
+.index-content-container{
+    width: 100%;
+    height: 100%;
+}
+.index-content-container .index-content-content{
+    width: 100%;
+    height: 100%;
+}
+.index-content-container .index-content-content .index-content{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+/*forms msg*/
+.index-content-container .index-content-content .index-content .forms-error-msg-content{
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+.index-content-container .index-content-content .index-content .forms-error-msg-content .forms-error-msg{
+    width: 100%;
+    text-align: center;
+}
+.index-content-container .index-content-content .index-content .forms-error-msg-content .forms-error-msg .alert{
+    padding: 5px 0;
+}
+
+
+
+
+.index-content-container .index-content-content .index-content .forms-success-msg-content{
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+.index-content-container .index-content-content .index-content .forms-success-msg-content .forms-success-msg{
+    width: 100%;
+    text-align: center;
+}
+.index-content-container .index-content-content .index-content .forms-success-msg-content .forms-success-msg .alert{
+    padding: 5px 0;
+}
+
+
+
+
+/*head*/
+.index-content-container .index-content-content .index-content .index-head{
+    width: 100%;
+    padding: 10px;
+}
+.index-content-container .index-content-content .index-content .index-head .index-head-list{
+    width: 100%;
+}
+.index-content-container .index-content-content .index-content .index-head .index-head-list .index-head-list-items{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    list-style: none;
+}
+.index-content-container .index-content-content .index-content .index-head .index-head-list .index-head-list-items a{
+    color: #FFFFFF;
+}
+.index-content-container .index-content-content .index-content .index-head .index-head-list .index-head-list-items a .index-head-item{
+    width: 250px;
+
+    max-width: 250px;
+    border-radius: 10px;
+    padding: 10px 5px;
+    text-align: justify;
+    /*background-image: url("../images/shapes/Daco_5403919.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: contain;*/
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.index-content-container .index-content-content .index-content .index-head .index-head-list .index-head-list-items a .index-head-item{
+
+}
+.index-content-container .index-content-content .index-content .index-head .index-head-list .index-head-list-items a .index-head-item .icon{
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+}
+.index-content-container .index-content-content .index-content .index-head .index-head-list .index-head-list-items a .index-head-item .icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.index-content-container .index-content-content .index-content .index-head .index-head-list .index-head-list-items a .index-head-item.users{
+    /*!*background: linear-gradient(to left, #328bc1, #77c8fe);*!*/
+    /*background-color: #4582f9;*/
+    background-image:
+    linear-gradient(to top, rgba(69, 130, 249, 0.92), rgba(133, 174, 253, 0.43)),
+    url('../images/shapes/Daco_5403919.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.index-content-container .index-content-content .index-content .index-head .index-head-list .index-head-list-items a .index-head-item.titles{
+
+    /*background-color: #00bc8b;*/
+    background-image:
+    linear-gradient(to top, rgba(0, 188, 139, 0.92), rgba(107, 255, 216, 0.43)),
+    url('../images/shapes/Daco_5403919.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.index-content-container .index-content-content .index-content .index-head .index-head-list .index-head-list-items a .index-head-item.categories{
+    /*background-color: #ffb800;*/
+    background-image:
+        linear-gradient(to top, rgba(255, 184, 0, 0.92), rgba(255, 208, 86, 0.43)),
+        url('../images/shapes/Daco_5403919.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.index-content-container .index-content-content .index-content .index-head .index-head-list .index-head-list-items a .index-head-item.topics{
+    /*background-color: #8d7dfd;*/
+    background-image:
+        linear-gradient(to top, rgba(69, 130, 249, 0.92), rgba(131, 173, 255, 0.43)),
+        url('../images/shapes/Daco_5403919.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+/*body*/
+.index-body{
+    width: 100%;
+    margin: 20px 0;
+}
+.index-body .index-body-list{
+    width: 100%;
+}
+.index-body .index-body-list .index-body-ads-list{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    box-shadow: 0 0 20px #d8d8d8;
+    border-radius: 10px;
+}
+.index-body .index-body-list .index-body-ads-list .index-body-ads-head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+.index-body .index-body-list .index-body-ads-list .index-body-ads {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background: #f3f3f3;
+}
+.index-body .index-body-list .index-body-ads-list .index-body-ads  .index-body-ad{
+    flex: 50%;
+    margin: 5px 0;
+}
+
+
+.index-body .index-body-list .index-body-list-items{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: flex-start;
+    list-style: none;
+    margin: 0 0 30px 0;
+}
+
+
+.index-body .index-body-list .index-body-list-items .index-body-item{
+    width: 50%;
+    margin: 0 10px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+
+.index-body .index-body-list .index-body-list-items .index-body-item .add-rank-form-content{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    display: none;
+}
+.index-body .index-body-list .index-body-list-items .index-body-item .add-rank-form-content .add-rank-form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+}
+.index-body .index-body-list .index-body-list-items .index-body-item .add-rank-form-content .add-rank-form form{
+    position: relative;
+    width: 300px;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #3d3d3d;
+}
+.index-body .index-body-list .index-body-list-items .index-body-item .add-rank-form-content .add-rank-form form p{
+    width: 100%;
+    background: linear-gradient(to left, #328bc1, #77c8fe);
+    font-size: 17px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.index-body .index-body-list .index-body-list-items .index-body-item .add-rank-form-content .add-rank-form form .close-rank-box{
+    position: absolute;
+    right: 5px;
+    top: -2px;
+    font-size: 20px;
+    z-index: 999;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.index-body .index-body-list .index-body-list-items .index-body-item .add-rank-form-content .add-rank-form form .input-style{
+    width: 90%;
+    margin: 10px auto;
+}
+.index-body .index-body-list .index-body-list-items .index-body-item .add-rank-form-content .add-rank-form form .input-style input{
+    width: 100%;
+}
+.index-body .index-body-list .index-body-list-items .index-body-item .add-rank-form-content .add-rank-form form .input-style .alert{
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.index-body .index-body-list .index-body-list-items .index-body-item .edit-rank-form-content{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    display: none;
+}
+.index-body .index-body-list .index-body-list-items .index-body-item .edit-rank-form-content .edit-rank-form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+}
+.index-body .index-body-list .index-body-list-items .index-body-item .edit-rank-form-content .edit-rank-form form{
+    position: relative;
+    width: 300px;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #3d3d3d;
+}
+.index-body .index-body-list .index-body-list-items .index-body-item .edit-rank-form-content .edit-rank-form form .edit-rank-old-icon{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+.index-body .index-body-list .index-body-list-items .index-body-item .edit-rank-form-content .edit-rank-form form .edit-rank-old-icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.index-body .index-body-list .index-body-list-items .index-body-item .edit-rank-form-content .edit-rank-form form p{
+    width: 100%;
+    background: linear-gradient(to left, #328bc1, #77c8fe);
+    font-size: 17px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.index-body .index-body-list .index-body-list-items .index-body-item .edit-rank-form-content .edit-rank-form form .close-edit-rank-box{
+    position: absolute;
+    right: 5px;
+    top: -2px;
+    font-size: 20px;
+    z-index: 999;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.index-body .index-body-list .index-body-list-items .index-body-item .edit-rank-form-content .edit-rank-form form .input-style{
+    width: 90%;
+    margin: 10px auto;
+}
+.index-body .index-body-list .index-body-list-items .index-body-item .edit-rank-form-content .edit-rank-form form .input-style input{
+    width: 100%;
+}
+.index-body .index-body-list .index-body-list-items .index-body-item .edit-rank-form-content .edit-rank-form form .input-style .alert{
+    padding: 0;
+}
+
+
+
+
+.index-body .index-body-list .index-body-list-items .index-body-item .add-font-form-content{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    display: none;
+}
+.index-body .index-body-list .index-body-list-items .index-body-item .add-font-form-content .add-font-form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+}
+.index-body .index-body-list .index-body-list-items .index-body-item .add-font-form-content .add-font-form form{
+    position: relative;
+    width: 300px;
+
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #3d3d3d;
+}
+.index-body .index-body-list .index-body-list-items .index-body-item .add-font-form-content .add-font-form form p{
+    width: 100%;
+    background: linear-gradient(to left, #328bc1, #77c8fe);
+    font-size: 17px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.index-body .index-body-list .index-body-list-items .index-body-item .add-font-form-content .add-font-form form .close-font-box{
+    position: absolute;
+    right: 5px;
+    top: -2px;
+    font-size: 20px;
+    z-index: 999;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.index-body .index-body-list .index-body-list-items .index-body-item .add-font-form-content .add-font-form form .input-style{
+    margin: 10px 0;
+}
+
+.index-body .index-body-list .index-body-list-items .index-body-item .add-font-form-content .add-font-form form .input-style .alert {
+    padding: 0;
+}
+
+
+.index-body .index-body-list .index-body-list-items .index-body-item .add-btn-content{
+    width: 100%;
+}
+.index-body .index-body-list .index-body-list-items .index-body-item .add-btn{
+    width: 140px;
+    padding: 10px;
+    text-align: justify;
+}
+.index-body .index-body-list .index-body-list-items .index-body-item .add-btn button{
+    width: 100%;
+}
+.index-body .index-body-list .index-body-list-items .index-body-item .add-btn button i{
+    vertical-align: middle;
+}
+.index-body .index-body-list .index-body-list-items .index-body-item table{
+    box-shadow: 0 0 20px #d8d8d8;
+}
+
+.index-body .index-body-list .index-body-list-items .index-body-item .index-body-item-head{
+    background: linear-gradient(to left, #328bc1, #77c8fe);
+    padding: 5px 0 1px 0;
+    color: #FFFFFF;
+}
+.index-body .index-body-list .index-body-list-items .index-body-item table{
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.index-body .index-body-list .index-body-list-items .index-body-item table tbody tr img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.index-body .index-body-list .index-body-list-items .index-body-item table tbody tr .active{
+    color: green;
+    font-weight: bold;
+}
+.index-body .index-body-list .index-body-list-items .index-body-item table tbody tr .archive{
+    color: red;
+    font-weight: bold;
+}
+
+
+.index-body .index-body-list .index-body-list-items .index-body-item table.last-comments{
+    text-align: center;
+}
+.index-body .index-body-list .index-body-list-items .index-body-item table  .show-comment-content{
+    cursor: pointer;
+}
+.index-body .index-body-list .index-body-list-items .index-body-item table  .comment-content-hidden{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.1);
+    display: none;
+}
+.index-body .index-body-list .index-body-list-items .index-body-item table  .comment-content-hidden  .comment-content-style{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.index-body .index-body-list .index-body-list-items .index-body-item table  .comment-content-hidden .comment-content{
+    width: 200px;
+    max-width: 300px;
+    height: 200px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+/*responsive*/
+
