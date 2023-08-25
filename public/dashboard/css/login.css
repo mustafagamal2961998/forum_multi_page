@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    background-image:url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: system-ui;
+}
+
+
+.login-container{
+    width: 100%;
+    height: 100%;
+}
+.login-container .login-content{
+    width: 100%;
+    height: 100%;
+}
+.login-container .login-content .login{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+}
+.login-container .login-content .login .login-box{
+    width: 300px;
+    min-height: 400px;
+    text-align: center;
+    padding: 50px 0;
+    background: #FFFFFF;
+}
+.login-container .login-content .login .login-box img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: auto;
+}
+.login-container .login-content .login .login-box h4{
+    width: 100%;
+    padding: 5px 0;
+}
+.login-container .login-content .login .login-box.form{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.login-container .login-content .login .login-box.form form .input-style{
+    width: 100%;
+    margin: 10px 0;
+}
+.login-container .login-content .login .login-box.form form .input-style .alert{
+    width:80%;
+    margin: 10px auto;
+    padding: 2px 0;
+}
+.login-container .login-content .login .login-box.form form .input-style input{
+    width:80%;
+    margin: auto;
+}
+.login-container .login-content .login .login-box.slide{
+    background-image:url("../images/slide/0.jpg");
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    /*border-right: 1px solid silver;*/
+    box-shadow: 0 0 20px 0 #031829;
+}
+.login-container .login-content .login .login-box#slide{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}

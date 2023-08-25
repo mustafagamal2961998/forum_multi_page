@@ -1,0 +1,236 @@
+/* START FORUM STYLE */
+.content-container .content .content-content{
+    width: 99%;
+}
+.content-container .content .content-content .forum-content{
+    width: 100%;
+}
+
+.content-container .content .content-content .forum-content .forum-btn-control-container{
+    width: 100%;
+    margin: 20px 0;
+}
+.content-container .content .content-content .forum-content .forum-btn-control-container .forum-btn-control-content{
+    width: 100%;
+}
+.content-container .content .content-content .forum-content .forum-btn-control-container .forum-btn-control-content .forum-btn-control{
+    width: 100%;
+}
+.content-container .content .content-content .forum-content .forum-btn-control-container .forum-btn-control-content .forum-btn-control a{
+    padding: 8px;
+    background: #ffffff;
+    border:1px solid #1b70b1;
+    border-radius: 2px;
+    font-weight: bold;
+    color: #222222;
+}
+.content-container .content .content-content .forum-content .forum-btn-control-container .forum-btn-control-content .forum-btn-control a:hover{
+    transition: 0.2s all;
+    color: #ffffff;
+    background-color: #1b70b1;
+}
+.content-container .content .content-content .forum-content .forum-btn-control-container .forum-btn-control-content .forum-btn-control a i{
+    vertical-align: middle;
+}
+
+
+.content-container .content .content-content .forum-content .topics-content .topics-container .topics-title img{
+    border-radius: 50%;
+}
+.content-container .content .content-content .forum-content .pin-topics{
+    width: 100%;
+}
+.content-container .content .content-content .forum-content .pin-topics .pin-topics-loop{
+    border-bottom-width: 20px;
+    border-bottom-style: dashed;
+    border-image: linear-gradient(to left, #328bc1, #77c8fe) 1;
+}
+
+.content-container .content .content-content .forum-content .forum .forum-empty-msg{
+    width: 100%;
+}
+.content-container .content .content-content .forum-content .forum .forum-empty-msg .forum-empty-msg-content{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+.content-container .content .content-content .forum-content .forum .forum-empty-msg .forum-empty-msg-content i{
+    vertical-align: middle;
+    font-size: 20px;
+}
+.content-container .content .content-content .forum-content .forum .forum-empty-msg .forum-empty-msg-content a{
+    color: #0096ff;
+    font-weight: bold;
+}
+.content-container .content .content-content .forum-content .forum .forum-empty-msg .forum-empty-msg-content a:hover{
+    transition: 0.5s all;
+    color: silver;
+}
+.content-container .content .content-content .forum-content .topics-content .topics-container .topics-title div h4{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.content-container .content .content-content .forum-content .topics-content .topics-container .topics-title div h4 span{
+    color: #c40303;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+.content-container .content .content-content .forum-content .topics-content .topics-container .topics-title{
+    width: calc(100% - 500px);
+}
+.content-container .content .content-content .forum-content .topics-content .topics-container .topics-last-topic{
+    width: 150px;
+}
+.content-container .content .content-content .forum-content .topics-content .topics-container .topics-views{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5px 10px;
+    color: #687590;
+}
+.content-container .content .content-content .forum-content .topics-content .topics-container .topics-views .topics-count p{
+    font-size: 13px;
+}
+.content-container .content .content-content .forum-content .topics-content .topics-container .topics-views .topics-count span{
+    color: black;
+}
+
+.content-container .content .content-content .forum-content .topics-content .topics-container .pin-topics-views{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5px 10px;
+    color: #687590;
+}
+.content-container .content .content-content .forum-content .topics-content .topics-container .pin-topics-views .topics-count p{
+    font-size: 13px;
+}
+.content-container .content .content-content .forum-content .topics-content .topics-container .pin-topics-views .topics-count span{
+    color: black;
+}
+.content-container .content .content-content .forum-content .topics-content .topics-container .topics-info .rate {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.content-container .content .content-content .forum-content .topics-content .topics-container .topics-info .rate img{
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+nav .pagination{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: justify;
+    list-style: none;
+    padding: 0 20px;
+}
+nav .pagination .page-item{
+    /*padding: 0 15px;*/
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 0 2px;
+    background: #efefef;
+    border:1px solid #dcdcdc;
+}
+nav .pagination .page-item:hover{
+    background: #d7d7d7;
+}
+nav .pagination .page-item a,span{
+    position: relative;
+    /*float: left;*/
+    padding: 0 15px;
+}
+nav .pagination .page-item.disabled{
+    background: #FFFFFF;
+    border:1px solid #1b70b1;
+}
+nav .pagination .page-item.disabled:hover{
+    background: #1b70b1;
+    border:1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.pagination .page-item.active{
+    background-color:#1b70b1;
+    border:1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+.pagination .page-item.active:hover{
+    background: #FFFFFF;
+    color: #222222;
+    border:1px solid #1b70b1;
+
+}
+
+
+
+/****************************************************/
+/*START FORUM RESPONSIVE*/
+@media only screen and  (max-width:998px){
+    .content-container .content .content-content .forum-content .topics-content .topics-container .pin-topics-views,
+    .content-container .content .content-content .forum-content .topics-content .topics-container .topics-views{
+        display: none;
+    }
+    .content-container .content .content-content .forum-content .topics-content .topics-container .topics-title{
+        width: calc(100% - 400px);
+    }
+}
+@media only screen and  (max-width:919px){
+    .content-container .content .content-content .forum-content .topics-content .topics-container .topics-last-topic{
+        display: none;
+    }
+    .content-container .content .content-content .forum-content .topics-content .topics-container .topics-title{
+        width: calc(100% - 200px);
+    }
+}
+
+@media only screen and  (max-width:715px){
+    .content-container .content .content-content .forum-content .topics-content .topics-container .topics-info{
+        display: none;
+    }
+    .content-container .content .content-content .forum-content .topics-content .topics-container .topics-title{
+        width: calc(100% - 50px);
+    }
+}
+
+
+@media only screen and  (max-width:555px){
+
+    .content-container .content .content-content .forum-content .topics-content .topics-container .topics-title{
+        position: relative;
+        width: calc(100%);
+    }
+    .content-container .content .content-content .forum-content .topics-content .topics-container .topics-title div h4 span{
+        position: absolute;
+        color: #c40303;
+        vertical-align: middle;
+        top: -15px;
+        right: 2px;
+        margin: 0;
+        font-size: 10px;
+    }
+}
+@media only screen and  (max-width:555px){
+    .direct-container .direct-content .direct{
+        padding: 5px 2px;
+    }
+    .direct-container .direct-content .direct div{
+        padding: 0px 14px;
+    }
+}
+
+/*END FORUM RESPONSIVE*/
+
+/* END FORUM STYLE */
+
+

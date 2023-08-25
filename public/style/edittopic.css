@@ -1,0 +1,247 @@
+/* START New TOPIC STYLE */
+.content-container{
+    width: 100%;
+}
+
+.content-container .content{
+    width: 100%;
+}
+.content-container .content .content-content{
+    width: 95%;
+    display: block;
+    margin: auto;
+}
+/*START NEW TOPIC FORM STYLE*/
+.content-container .content .content-content form{
+    width: 100%;
+}
+.content-container .content .content-content form .new-topic-top-content .new-topic-top-content-header{
+    border-bottom-width: 3px;
+    border-bottom-style: dashed;
+    border-image: linear-gradient(to left, #328bc1, #77c8fe) 1;
+    padding: 20px 0;
+}
+.content-container .content .content-content form .tox.tox-tinymce{
+    border-radius: 5px;
+    border:1px solid #1b70b1;
+}
+
+
+.content-container .content .content-content form .topic-title-input{
+    position: relative;
+    margin: 10px 0;
+}
+.content-container .content .content-content form .topic-title-input .error-list{
+    position: absolute;
+    right: 0;
+    top: -80px;
+    padding: 10px;
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    border-radius: 5px;
+}
+.content-container .content .content-content form .text-editor{
+    position: relative;
+}
+.content-container .content .content-content form .text-editor .error-list{
+    position: absolute;
+    left: 0;
+    top: -10px;
+    padding: 10px;
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    border-radius: 5px;
+}
+
+.content-container .content .content-content form .tags-input{
+    position: relative;
+}
+.content-container .content .content-content form .tags-input .error-list{
+    position: absolute;
+    left: 0;
+    top: -10px;
+    padding: 10px;
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    border-radius: 5px;
+}
+
+
+.content-container .content .content-content form .topic-title-input label,.text-editor label{
+
+    cursor: pointer;
+}
+.content-container .content .content-content form .topic-title-input input{
+    width: 50%;
+    padding: 7px 10px;
+    font-size: 17px;
+    font-weight: bold;
+    outline: none;
+    border:1px solid #1b70b1;
+    border-radius: 5px;
+    font-family: system-ui;
+}
+
+
+
+.content-container .content .content-content form .topic-tags-input{
+    position: relative;
+    width: 100%;
+    margin: 30px 0;
+    padding: 20px 10px;
+    border:1px solid #1b70b1;
+    border-radius: 5px;
+}
+.content-container .content .content-content form .topic-tags-input .topic-tags-input-content-title{
+    position: absolute;
+    top: -17px;
+    background-color: #e5ecff;
+    padding: 0 11px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.content-container .content .content-content form .topic-tags-input .tags-input label .topic-tags-input-notices{
+    width: 30%;
+    padding: 1px 10px;
+    margin: 10px 0;
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+    font-size: 14px;
+}
+
+.content-container .content .content-content form .border-error{
+    border:1px solid red !important;
+}
+
+.content-container .content .content-content form .show-signature{
+    position: relative;
+    width: 100%;
+    margin: 30px 0;
+    padding: 20px 10px;
+    border: 1px solid #1b70b1;
+    border-radius: 5px;
+    display: flex;
+}
+
+.content-container .content .content-content form .show-signature .error-list{
+    position: absolute;
+    left: 10px;
+    top: 9px;
+    padding: 10px;
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    border-radius: 5px;
+}
+.content-container .content .content-content form .show-signature .check{
+    margin: 0 10px;
+}
+.content-container .content .content-content form .show-signature p{
+    position: absolute;
+    top: -17px;
+    background-color: #e5ecff;
+    padding: 0 11px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.content-container .content .content-content form .owner-email-topic-follow-container{
+    position: relative;
+    width: 100%;
+    margin: 30px 0;
+    padding: 20px 10px;
+    border: 1px solid #1b70b1;
+    border-radius: 5px;
+    display: flex;
+}
+
+.content-container .content .content-content form .owner-email-topic-follow-container .error-list{
+    position: absolute;
+    left: 10px;
+    top: 9px;
+    padding: 10px;
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    border-radius: 5px;
+}
+.content-container .content .content-content form  .owner-email-topic-follow-container p{
+    position: absolute;
+    top: -17px;
+    background-color: #e5ecff;
+    padding: 0 11px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.content-container .content .content-content form  .owner-email-topic-follow-container .owner-email-topic-follow{
+    margin: 0 10px;
+}
+.content-container .content .content-content form .new-topic-btn-container{
+    width: 100%;
+    text-align: center;
+}
+
+.content-container .content .content-content form .new-topic-btn-container input{
+    margin: 0 10px;
+    padding: 5px 8px;
+    background: #ffffff;
+    border: 1px solid #1b70b1;
+    border-radius: 2px;
+    font-weight: bold;
+    color: #222222;
+    font-family: system-ui;
+    cursor: pointer;
+}
+.content-container .content .content-content form .new-topic-btn-container input i{
+    vertical-align: middle;
+}
+.content-container .content .content-content form .new-topic-btn-container input:hover{
+    background-color: #1b70b1;
+    border:1px solid #FFFFFF;
+    color: #ffffff;
+}
+
+.content-container .content .content-content form .new-topic-btn-container input:disabled{
+    background-color: silver;
+    color: #FFFFFF;
+    border:none;
+}
+/*END NEW TOPIC FORM STYLE*/
+
+/****************************************************/
+/*START NEW TOPIC RESPONSIVE*/
+@media only screen and  (max-width:1182px){
+    .content-container .content .content-content form .topic-tags-input .tags-input label .topic-tags-input-notices{
+        width: 50%;
+    }
+}
+@media only screen and  (max-width:723px){
+    .content-container .content .content-content form .topic-tags-input .tags-input label .topic-tags-input-notices{
+        width: 80%;
+    }
+    .content-container .content .content-content form .topic-title-input input{
+        width: 80%;
+    }
+}
+@media only screen and  (max-width:451px){
+    .content-container .content .content-content form .topic-tags-input .tags-input label .topic-tags-input-notices,
+    .content-container .content .content-content form .topic-title-input input{
+        width: 100%;
+    }
+
+}
+@media only screen and  (max-width:442px){
+    .content-container .content .content-content form .topic-tags-input .tags-input label .topic-tags-input-notices{
+        width: 100%;
+        margin: 40px 0;
+    }
+}
+/*END NEW TOPIC RESPONSIVE*/
+
+/* END NEW TOPIC STYLE */
+
+

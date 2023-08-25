@@ -1,0 +1,328 @@
+.ads-container{
+    display: none !important;
+}
+.profile-container{
+    width: 100%;
+}
+.profile-container .profile-content{
+    width: 100%;
+}
+.profile-container .profile-content .profile{
+    width: 100%;
+}
+
+/*head*/
+.profile-head-content{
+    position: relative;
+    width: 50%;
+    margin: auto;
+}
+.profile-head-content .profile-head{
+    width: 100%;
+}
+.profile-head-content .profile-head .profile-cover-content{
+    position: relative;
+}
+.profile-head-content .profile-head .profile-cover-content .cover-preview-content{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+    z-index: 9999999;
+}
+.profile-head-content .profile-head .profile-cover-content .cover-preview-content .close-cover-preview{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #FFFFFF;
+    font-size: 25px;
+    cursor: pointer;
+}
+.profile-head-content .profile-head .profile-cover-content .cover-preview-content .cover-preview{
+    width: 50%;
+    margin: auto;
+    padding-top: 50px;
+    height: 300px;
+}
+
+.profile-head-content .profile-head .profile-cover-content .cover-preview-content .cover-preview img{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+.profile-head-content .profile-head .profile-cover-content .cover-preview-content .cover-preview .input-style button{
+    padding: 0 20px;
+    font-size: 20px;
+    height: 47px;
+    border:1px solid #1b70b1;
+    background-color: #FFFFFF;
+    color: #222222;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: system-ui;
+}
+.profile-head-content .profile-head .profile-cover-content .cover-preview-content .cover-preview .input-style button:hover{
+    transition: 0.5s all;
+    background-color: #1b70b1;
+    color: #FFFFFF;
+    border:1px solid #222222;
+
+}
+.profile-head-content .profile-head .profile-cover-content .profile-cover-form{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.profile-head-content .profile-head .profile-cover-content .profile-cover-form .input-style label{
+    font-size: 25px;
+    cursor: pointer;
+}
+.profile-head-content .profile-head .profile-cover-content .profile-cover-form .input-style label:hover{
+    transition: 0.5s all;
+    color: #1b70b1;
+}
+
+.profile-head-content .profile-head .profile-cover-content .profile-cover-form .input-style input[type="file"]{
+    opacity: 0;
+    width: 10px;
+}
+
+
+.profile-head-content .profile-head .profile-cover{
+    width: 100%;
+    border:2px solid #1b70b1;
+    border-radius: 10px;
+}
+.profile-head-content .profile-head .profile-cover img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.profile-head-content .profile-head .profile-avatar-content{
+    position: relative;
+}
+.profile-head-content .profile-head .profile-avatar{
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+}
+.profile-head-content .profile-head .profile-avatar img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border:2px solid #1b70b1;
+}
+.profile-head-content .profile-head .profile-avatar-content .profile-avatar-form{
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
+.profile-head-content .profile-head .profile-avatar-content .profile-avatar-form .input-style label{
+    font-size: 25px;
+    cursor: pointer;
+}
+.profile-head-content .profile-head .profile-avatar-content .profile-avatar-form .input-style label:hover{
+    transition: 0.5s all;
+    color:#1b70b1;
+}
+
+.profile-head-content .profile-head .profile-avatar-content .profile-avatar-form .input-style input[type="file"]{
+    position: absolute;
+    opacity: 0;
+    width: 10px;
+}
+
+.profile-head-content .profile-head .profile-avatar-content .avatar-preview-content{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+    z-index: 9999999;
+}
+.profile-head-content .profile-head .profile-avatar-content .avatar-preview-content .close-avatar-preview{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #FFFFFF;
+    font-size: 25px;
+    cursor: pointer;
+}
+.profile-head-content .profile-head .profile-avatar-content .avatar-preview-content .avatar-preview{
+    width: 50%;
+    margin: auto;
+    padding-top: 50px;
+    height: 300px;
+    text-align: center;
+}
+.profile-head-content .profile-head .profile-avatar-content .avatar-preview-content form{
+    margin: auto;
+    text-align: center;
+}
+.profile-head-content .profile-head .profile-avatar-content .avatar-preview-content .avatar-preview img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.profile-head-content .profile-head .profile-avatar-content .avatar-preview-content .avatar-preview .input-style button{
+    padding: 0 20px;
+    font-size: 20px;
+    height: 47px;
+    border:1px solid #1b70b1;
+    background-color: #FFFFFF;
+    color: #222222;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: system-ui;
+}
+.profile-head-content .profile-head .profile-avatar-content .avatar-preview-content .avatar-preview .input-style button:hover{
+    transition: 0.5s all;
+    background-color: #1b70b1;
+    color: #FFFFFF;
+    border:1px solid #222222;
+}
+
+
+
+
+
+
+
+/*body*/
+.profile-body-content{
+    width: 100%;
+    padding: 20px 10px;
+}
+.profile-body-content .profile-body{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+}
+.profile-body-content .profile-body .info-list{
+    width: 80%;
+}
+.profile-body-content .profile-body .info-list .info-list-items{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+.profile-body-content .profile-body .info-list .info-list-items .info-item i {
+    vertical-align: middle;
+}
+
+
+
+/*left list user data and control*/
+.profile-body-content .profile-body .user-data-control-content{
+    width: 20%;
+}
+.profile-body-content .profile-body .user-data-control-content .user-data-control{
+    width: 100%;
+}
+.profile-body-content .profile-body .user-data-control-content .user-data-control .user-data-control-list-items{
+    list-style: none;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 10px #dbdbdb;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    margin: 15px 0;
+}
+.profile-body-content .profile-body .user-data-control-content .user-data-control .user-data-control-list-items .user-data-control-list-items-head-text{
+    width: 100%;
+    background: linear-gradient(to left, #328bc1, #77c8fe);
+    font-weight: normal;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    padding: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    word-wrap: normal;
+    text-overflow: ellipsis;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile-body-content .profile-body .user-data-control-content .user-data-control .user-data-control-list-items .user-data-control-list-items-head-text i{
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.profile-body-content .profile-body .user-data-control-content .user-data-control .user-data-control-list-items .user-data-control-list-items-head-text a{
+    color: #FFFFFF;
+}
+.profile-body-content .profile-body .user-data-control-content .user-data-control .user-data-control-list-items .user-data-control-list-items-head-text a:hover{
+    transition: 0.5s all;
+    color: silver;
+    text-decoration: underline;
+}
+.profile-body-content .profile-body .user-data-control-content .user-data-control .user-data-control-list-items .user-data-control-item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin: 10px 0;
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 13px;
+    padding: 0 10px;
+}
+.profile-body-content .profile-body .user-data-control-content .user-data-control .user-data-control-list-items .user-data-control-item .text{
+    color: #858585;
+}
+.profile-body-content .profile-body .user-data-control-content .user-data-control .user-data-control-list-items .user-data-control-item .really-data{
+    font-weight: 500;
+    font-family: system-ui;
+    color: #343434;
+}
+.profile-body-content .profile-body .user-data-control-content .user-data-control .user-data-control-list-items .user-data-control-item p i{
+    vertical-align: middle;
+}
+
+/*Responsive*/
+
+@media only screen and  (max-width:800px){
+    .profile-head-content{
+        width: 90%;
+    }
+    .profile-body-content .profile-body{
+        width: 90%;
+    }
+}
+@media only screen and  (max-width:600px){
+    .profile-head-content{
+        width: 100%;
+    }
+    .profile-body-content{
+        padding: 20px 0;
+
+    }
+    .profile-body-content .profile-body{
+        width: 100%;
+    }
+
+    .profile-body-content .profile-body .info-list .info-list-items{
+        display: grid;
+    }
+    .profile-body-content .profile-body .info-list .info-list-items .info-item{
+        margin: 10px 0;
+    }
+
+}
+
